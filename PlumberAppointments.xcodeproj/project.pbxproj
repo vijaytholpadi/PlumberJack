@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDAAFF8A18E875E800D01882 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAAFF8918E875E800D01882 /* Foundation.framework */; };
+		CDAAFF8C18E875E800D01882 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAAFF8B18E875E800D01882 /* CoreGraphics.framework */; };
+		CDAAFF8E18E875E800D01882 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAAFF8D18E875E800D01882 /* UIKit.framework */; };
+		CDAAFF9418E875E800D01882 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CDAAFF9218E875E800D01882 /* InfoPlist.strings */; };
+		CDAAFF9618E875E800D01882 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAAFF9518E875E800D01882 /* main.m */; };
+		CDAAFF9A18E875E800D01882 /* PAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAAFF9918E875E800D01882 /* PAAppDelegate.m */; };
+		CDAAFF9D18E875E800D01882 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDAAFF9B18E875E800D01882 /* Main.storyboard */; };
+		CDAAFFA018E875E800D01882 /* PAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAAFF9F18E875E800D01882 /* PAViewController.m */; };
+		CDAAFFA218E875E800D01882 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDAAFFA118E875E800D01882 /* Images.xcassets */; };
+		CDAAFFA918E875E800D01882 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAAFFA818E875E800D01882 /* XCTest.framework */; };
+		CDAAFFAA18E875E800D01882 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAAFF8918E875E800D01882 /* Foundation.framework */; };
+		CDAAFFAB18E875E800D01882 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAAFF8D18E875E800D01882 /* UIKit.framework */; };
+		CDAAFFB318E875E800D01882 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CDAAFFB118E875E800D01882 /* InfoPlist.strings */; };
+		CDAAFFB518E875E800D01882 /* PlumberAppointmentsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAAFFB418E875E800D01882 /* PlumberAppointmentsTests.m */; };
+		CDAAFFC018E89EEA00D01882 /* PATableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAAFFBF18E89EEA00D01882 /* PATableViewController.m */; };
+		CDAAFFC318E9131200D01882 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAAFFC218E9131200D01882 /* DetailsViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDAAFFAC18E875E800D01882 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDAAFF7E18E875E700D01882 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDAAFF8518E875E700D01882;
+			remoteInfo = PlumberAppointments;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CDAAFF8618E875E700D01882 /* PlumberAppointments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlumberAppointments.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDAAFF8918E875E800D01882 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CDAAFF8B18E875E800D01882 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CDAAFF8D18E875E800D01882 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CDAAFF9118E875E800D01882 /* PlumberAppointments-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlumberAppointments-Info.plist"; sourceTree = "<group>"; };
+		CDAAFF9318E875E800D01882 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CDAAFF9518E875E800D01882 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CDAAFF9718E875E800D01882 /* PlumberAppointments-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PlumberAppointments-Prefix.pch"; sourceTree = "<group>"; };
+		CDAAFF9818E875E800D01882 /* PAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PAAppDelegate.h; sourceTree = "<group>"; };
+		CDAAFF9918E875E800D01882 /* PAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PAAppDelegate.m; sourceTree = "<group>"; };
+		CDAAFF9C18E875E800D01882 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDAAFF9E18E875E800D01882 /* PAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PAViewController.h; sourceTree = "<group>"; };
+		CDAAFF9F18E875E800D01882 /* PAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PAViewController.m; sourceTree = "<group>"; };
+		CDAAFFA118E875E800D01882 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CDAAFFA718E875E800D01882 /* PlumberAppointmentsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlumberAppointmentsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDAAFFA818E875E800D01882 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CDAAFFB018E875E800D01882 /* PlumberAppointmentsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlumberAppointmentsTests-Info.plist"; sourceTree = "<group>"; };
+		CDAAFFB218E875E800D01882 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CDAAFFB418E875E800D01882 /* PlumberAppointmentsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlumberAppointmentsTests.m; sourceTree = "<group>"; };
+		CDAAFFBE18E89EEA00D01882 /* PATableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PATableViewController.h; sourceTree = "<group>"; };
+		CDAAFFBF18E89EEA00D01882 /* PATableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PATableViewController.m; sourceTree = "<group>"; };
+		CDAAFFC118E9131200D01882 /* DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		CDAAFFC218E9131200D01882 /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDAAFF8318E875E700D01882 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDAAFF8C18E875E800D01882 /* CoreGraphics.framework in Frameworks */,
+				CDAAFF8E18E875E800D01882 /* UIKit.framework in Frameworks */,
+				CDAAFF8A18E875E800D01882 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDAAFFA418E875E800D01882 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDAAFFA918E875E800D01882 /* XCTest.framework in Frameworks */,
+				CDAAFFAB18E875E800D01882 /* UIKit.framework in Frameworks */,
+				CDAAFFAA18E875E800D01882 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDAAFF7D18E875E700D01882 = {
+			isa = PBXGroup;
+			children = (
+				CDAAFF8F18E875E800D01882 /* PlumberAppointments */,
+				CDAAFFAE18E875E800D01882 /* PlumberAppointmentsTests */,
+				CDAAFF8818E875E800D01882 /* Frameworks */,
+				CDAAFF8718E875E800D01882 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDAAFF8718E875E800D01882 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDAAFF8618E875E700D01882 /* PlumberAppointments.app */,
+				CDAAFFA718E875E800D01882 /* PlumberAppointmentsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDAAFF8818E875E800D01882 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDAAFF8918E875E800D01882 /* Foundation.framework */,
+				CDAAFF8B18E875E800D01882 /* CoreGraphics.framework */,
+				CDAAFF8D18E875E800D01882 /* UIKit.framework */,
+				CDAAFFA818E875E800D01882 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDAAFF8F18E875E800D01882 /* PlumberAppointments */ = {
+			isa = PBXGroup;
+			children = (
+				CDAAFF9818E875E800D01882 /* PAAppDelegate.h */,
+				CDAAFF9918E875E800D01882 /* PAAppDelegate.m */,
+				CDAAFF9B18E875E800D01882 /* Main.storyboard */,
+				CDAAFFBE18E89EEA00D01882 /* PATableViewController.h */,
+				CDAAFFBF18E89EEA00D01882 /* PATableViewController.m */,
+				CDAAFF9E18E875E800D01882 /* PAViewController.h */,
+				CDAAFF9F18E875E800D01882 /* PAViewController.m */,
+				CDAAFFC118E9131200D01882 /* DetailsViewController.h */,
+				CDAAFFC218E9131200D01882 /* DetailsViewController.m */,
+				CDAAFFA118E875E800D01882 /* Images.xcassets */,
+				CDAAFF9018E875E800D01882 /* Supporting Files */,
+			);
+			path = PlumberAppointments;
+			sourceTree = "<group>";
+		};
+		CDAAFF9018E875E800D01882 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDAAFF9118E875E800D01882 /* PlumberAppointments-Info.plist */,
+				CDAAFF9218E875E800D01882 /* InfoPlist.strings */,
+				CDAAFF9518E875E800D01882 /* main.m */,
+				CDAAFF9718E875E800D01882 /* PlumberAppointments-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CDAAFFAE18E875E800D01882 /* PlumberAppointmentsTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDAAFFB418E875E800D01882 /* PlumberAppointmentsTests.m */,
+				CDAAFFAF18E875E800D01882 /* Supporting Files */,
+			);
+			path = PlumberAppointmentsTests;
+			sourceTree = "<group>";
+		};
+		CDAAFFAF18E875E800D01882 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDAAFFB018E875E800D01882 /* PlumberAppointmentsTests-Info.plist */,
+				CDAAFFB118E875E800D01882 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDAAFF8518E875E700D01882 /* PlumberAppointments */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDAAFFB818E875E800D01882 /* Build configuration list for PBXNativeTarget "PlumberAppointments" */;
+			buildPhases = (
+				CDAAFF8218E875E700D01882 /* Sources */,
+				CDAAFF8318E875E700D01882 /* Frameworks */,
+				CDAAFF8418E875E700D01882 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlumberAppointments;
+			productName = PlumberAppointments;
+			productReference = CDAAFF8618E875E700D01882 /* PlumberAppointments.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDAAFFA618E875E800D01882 /* PlumberAppointmentsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDAAFFBB18E875E800D01882 /* Build configuration list for PBXNativeTarget "PlumberAppointmentsTests" */;
+			buildPhases = (
+				CDAAFFA318E875E800D01882 /* Sources */,
+				CDAAFFA418E875E800D01882 /* Frameworks */,
+				CDAAFFA518E875E800D01882 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDAAFFAD18E875E800D01882 /* PBXTargetDependency */,
+			);
+			name = PlumberAppointmentsTests;
+			productName = PlumberAppointmentsTests;
+			productReference = CDAAFFA718E875E800D01882 /* PlumberAppointmentsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDAAFF7E18E875E700D01882 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PA;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = TheGeekProjekt;
+				TargetAttributes = {
+					CDAAFFA618E875E800D01882 = {
+						TestTargetID = CDAAFF8518E875E700D01882;
+					};
+				};
+			};
+			buildConfigurationList = CDAAFF8118E875E700D01882 /* Build configuration list for PBXProject "PlumberAppointments" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDAAFF7D18E875E700D01882;
+			productRefGroup = CDAAFF8718E875E800D01882 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDAAFF8518E875E700D01882 /* PlumberAppointments */,
+				CDAAFFA618E875E800D01882 /* PlumberAppointmentsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDAAFF8418E875E700D01882 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDAAFFA218E875E800D01882 /* Images.xcassets in Resources */,
+				CDAAFF9418E875E800D01882 /* InfoPlist.strings in Resources */,
+				CDAAFF9D18E875E800D01882 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDAAFFA518E875E800D01882 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDAAFFB318E875E800D01882 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDAAFF8218E875E700D01882 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDAAFF9618E875E800D01882 /* main.m in Sources */,
+				CDAAFFC318E9131200D01882 /* DetailsViewController.m in Sources */,
+				CDAAFFA018E875E800D01882 /* PAViewController.m in Sources */,
+				CDAAFFC018E89EEA00D01882 /* PATableViewController.m in Sources */,
+				CDAAFF9A18E875E800D01882 /* PAAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDAAFFA318E875E800D01882 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDAAFFB518E875E800D01882 /* PlumberAppointmentsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDAAFFAD18E875E800D01882 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDAAFF8518E875E700D01882 /* PlumberAppointments */;
+			targetProxy = CDAAFFAC18E875E800D01882 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CDAAFF9218E875E800D01882 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDAAFF9318E875E800D01882 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CDAAFF9B18E875E800D01882 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDAAFF9C18E875E800D01882 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDAAFFB118E875E800D01882 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDAAFFB218E875E800D01882 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDAAFFB618E875E800D01882 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CDAAFFB718E875E800D01882 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDAAFFB918E875E800D01882 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlumberAppointments/PlumberAppointments-Prefix.pch";
+				INFOPLIST_FILE = "PlumberAppointments/PlumberAppointments-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CDAAFFBA18E875E800D01882 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlumberAppointments/PlumberAppointments-Prefix.pch";
+				INFOPLIST_FILE = "PlumberAppointments/PlumberAppointments-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CDAAFFBC18E875E800D01882 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PlumberAppointments.app/PlumberAppointments";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlumberAppointments/PlumberAppointments-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PlumberAppointmentsTests/PlumberAppointmentsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CDAAFFBD18E875E800D01882 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PlumberAppointments.app/PlumberAppointments";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlumberAppointments/PlumberAppointments-Prefix.pch";
+				INFOPLIST_FILE = "PlumberAppointmentsTests/PlumberAppointmentsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDAAFF8118E875E700D01882 /* Build configuration list for PBXProject "PlumberAppointments" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDAAFFB618E875E800D01882 /* Debug */,
+				CDAAFFB718E875E800D01882 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDAAFFB818E875E800D01882 /* Build configuration list for PBXNativeTarget "PlumberAppointments" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDAAFFB918E875E800D01882 /* Debug */,
+				CDAAFFBA18E875E800D01882 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CDAAFFBB18E875E800D01882 /* Build configuration list for PBXNativeTarget "PlumberAppointmentsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDAAFFBC18E875E800D01882 /* Debug */,
+				CDAAFFBD18E875E800D01882 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDAAFF7E18E875E700D01882 /* Project object */;
+}
