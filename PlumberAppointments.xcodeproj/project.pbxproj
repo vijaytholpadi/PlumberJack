@@ -12,17 +12,17 @@
 		CDAAFF8E18E875E800D01882 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAAFF8D18E875E800D01882 /* UIKit.framework */; };
 		CDAAFF9418E875E800D01882 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CDAAFF9218E875E800D01882 /* InfoPlist.strings */; };
 		CDAAFF9618E875E800D01882 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAAFF9518E875E800D01882 /* main.m */; };
-		CDAAFF9A18E875E800D01882 /* PAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAAFF9918E875E800D01882 /* PAAppDelegate.m */; };
+		CDAAFF9A18E875E800D01882 /* PJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAAFF9918E875E800D01882 /* PJAppDelegate.m */; };
 		CDAAFF9D18E875E800D01882 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDAAFF9B18E875E800D01882 /* Main.storyboard */; };
-		CDAAFFA018E875E800D01882 /* PAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAAFF9F18E875E800D01882 /* PAViewController.m */; };
+		CDAAFFA018E875E800D01882 /* PJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAAFF9F18E875E800D01882 /* PJViewController.m */; };
 		CDAAFFA218E875E800D01882 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDAAFFA118E875E800D01882 /* Images.xcassets */; };
 		CDAAFFA918E875E800D01882 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAAFFA818E875E800D01882 /* XCTest.framework */; };
 		CDAAFFAA18E875E800D01882 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAAFF8918E875E800D01882 /* Foundation.framework */; };
 		CDAAFFAB18E875E800D01882 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAAFF8D18E875E800D01882 /* UIKit.framework */; };
 		CDAAFFB318E875E800D01882 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CDAAFFB118E875E800D01882 /* InfoPlist.strings */; };
 		CDAAFFB518E875E800D01882 /* PlumberAppointmentsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAAFFB418E875E800D01882 /* PlumberAppointmentsTests.m */; };
-		CDAAFFC018E89EEA00D01882 /* PATableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAAFFBF18E89EEA00D01882 /* PATableViewController.m */; };
-		CDAAFFC318E9131200D01882 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAAFFC218E9131200D01882 /* DetailsViewController.m */; };
+		CDAAFFC018E89EEA00D01882 /* PJTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAAFFBF18E89EEA00D01882 /* PJTableViewController.m */; };
+		CDAAFFC318E9131200D01882 /* PJDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAAFFC218E9131200D01882 /* PJDetailsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,21 +44,21 @@
 		CDAAFF9318E875E800D01882 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CDAAFF9518E875E800D01882 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CDAAFF9718E875E800D01882 /* PlumberAppointments-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PlumberAppointments-Prefix.pch"; sourceTree = "<group>"; };
-		CDAAFF9818E875E800D01882 /* PAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PAAppDelegate.h; sourceTree = "<group>"; };
-		CDAAFF9918E875E800D01882 /* PAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PAAppDelegate.m; sourceTree = "<group>"; };
+		CDAAFF9818E875E800D01882 /* PJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PJAppDelegate.h; sourceTree = "<group>"; };
+		CDAAFF9918E875E800D01882 /* PJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PJAppDelegate.m; sourceTree = "<group>"; };
 		CDAAFF9C18E875E800D01882 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CDAAFF9E18E875E800D01882 /* PAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PAViewController.h; sourceTree = "<group>"; };
-		CDAAFF9F18E875E800D01882 /* PAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PAViewController.m; sourceTree = "<group>"; };
+		CDAAFF9E18E875E800D01882 /* PJViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PJViewController.h; sourceTree = "<group>"; };
+		CDAAFF9F18E875E800D01882 /* PJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PJViewController.m; sourceTree = "<group>"; };
 		CDAAFFA118E875E800D01882 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CDAAFFA718E875E800D01882 /* PlumberAppointmentsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlumberAppointmentsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDAAFFA818E875E800D01882 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		CDAAFFB018E875E800D01882 /* PlumberAppointmentsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlumberAppointmentsTests-Info.plist"; sourceTree = "<group>"; };
 		CDAAFFB218E875E800D01882 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CDAAFFB418E875E800D01882 /* PlumberAppointmentsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlumberAppointmentsTests.m; sourceTree = "<group>"; };
-		CDAAFFBE18E89EEA00D01882 /* PATableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PATableViewController.h; sourceTree = "<group>"; };
-		CDAAFFBF18E89EEA00D01882 /* PATableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PATableViewController.m; sourceTree = "<group>"; };
-		CDAAFFC118E9131200D01882 /* DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
-		CDAAFFC218E9131200D01882 /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
+		CDAAFFBE18E89EEA00D01882 /* PJTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJTableViewController.h; sourceTree = "<group>"; };
+		CDAAFFBF18E89EEA00D01882 /* PJTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJTableViewController.m; sourceTree = "<group>"; };
+		CDAAFFC118E9131200D01882 /* PJDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJDetailsViewController.h; sourceTree = "<group>"; };
+		CDAAFFC218E9131200D01882 /* PJDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJDetailsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,15 +118,15 @@
 		CDAAFF8F18E875E800D01882 /* PlumberAppointments */ = {
 			isa = PBXGroup;
 			children = (
-				CDAAFF9818E875E800D01882 /* PAAppDelegate.h */,
-				CDAAFF9918E875E800D01882 /* PAAppDelegate.m */,
+				CDAAFF9818E875E800D01882 /* PJAppDelegate.h */,
+				CDAAFF9918E875E800D01882 /* PJAppDelegate.m */,
 				CDAAFF9B18E875E800D01882 /* Main.storyboard */,
-				CDAAFFBE18E89EEA00D01882 /* PATableViewController.h */,
-				CDAAFFBF18E89EEA00D01882 /* PATableViewController.m */,
-				CDAAFF9E18E875E800D01882 /* PAViewController.h */,
-				CDAAFF9F18E875E800D01882 /* PAViewController.m */,
-				CDAAFFC118E9131200D01882 /* DetailsViewController.h */,
-				CDAAFFC218E9131200D01882 /* DetailsViewController.m */,
+				CDAAFFBE18E89EEA00D01882 /* PJTableViewController.h */,
+				CDAAFFBF18E89EEA00D01882 /* PJTableViewController.m */,
+				CDAAFF9E18E875E800D01882 /* PJViewController.h */,
+				CDAAFF9F18E875E800D01882 /* PJViewController.m */,
+				CDAAFFC118E9131200D01882 /* PJDetailsViewController.h */,
+				CDAAFFC218E9131200D01882 /* PJDetailsViewController.m */,
 				CDAAFFA118E875E800D01882 /* Images.xcassets */,
 				CDAAFF9018E875E800D01882 /* Supporting Files */,
 			);
@@ -261,10 +261,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDAAFF9618E875E800D01882 /* main.m in Sources */,
-				CDAAFFC318E9131200D01882 /* DetailsViewController.m in Sources */,
-				CDAAFFA018E875E800D01882 /* PAViewController.m in Sources */,
-				CDAAFFC018E89EEA00D01882 /* PATableViewController.m in Sources */,
-				CDAAFF9A18E875E800D01882 /* PAAppDelegate.m in Sources */,
+				CDAAFFC318E9131200D01882 /* PJDetailsViewController.m in Sources */,
+				CDAAFFA018E875E800D01882 /* PJViewController.m in Sources */,
+				CDAAFFC018E89EEA00D01882 /* PJTableViewController.m in Sources */,
+				CDAAFF9A18E875E800D01882 /* PJAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,6 +469,7 @@
 				CDAAFFBA18E875E800D01882 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CDAAFFBB18E875E800D01882 /* Build configuration list for PBXNativeTarget "PlumberAppointmentsTests" */ = {
 			isa = XCConfigurationList;
@@ -477,6 +478,7 @@
 				CDAAFFBD18E875E800D01882 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

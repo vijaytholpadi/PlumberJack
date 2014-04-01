@@ -1,5 +1,5 @@
 //
-//  DetailsViewController.h
+//  PJDetailsViewController.h
 //  PlumberAppointments
 //
 //  Created by Vijay Tholpadi on 31/03/14.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DetailsViewController : UIViewController
+@interface PJDetailsViewController : UIViewController
 
 @property (nonatomic,strong) NSDictionary *appointDetails;
 

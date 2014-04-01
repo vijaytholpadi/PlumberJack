@@ -1,5 +1,5 @@
 //
-//  PATableViewController.h
+//  PJTableViewController.h
 //  PlumberAppointments
 //
 //  Created by Vijay Tholpadi on 31/03/14.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PATableViewController : UITableViewController
+@interface PJTableViewController : UITableViewController
 
 @property (nonatomic, strong) NSArray *dayAppointArray;
 

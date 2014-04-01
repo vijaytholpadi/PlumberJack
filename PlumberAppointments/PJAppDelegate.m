@@ -1,14 +1,14 @@
 //
-//  PAAppDelegate.m
+//  PJAppDelegate.m
 //  PlumberAppointments
 //
 //  Created by Vijay Tholpadi on 30/03/14.
 //  Copyright (c) 2014 TheGeekProjekt. All rights reserved.
 //
 
-#import "PAAppDelegate.h"
+#import "PJAppDelegate.h"
 
-@implementation PAAppDelegate
+@implementation PJAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

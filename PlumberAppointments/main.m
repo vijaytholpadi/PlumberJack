@@ -8,11 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-#import "PAAppDelegate.h"
+#import "PJAppDelegate.h"
 
 int main(int argc, char * argv[])
 {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([PAAppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([PJAppDelegate class]));
     }
 }

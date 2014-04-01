@@ -1,5 +1,5 @@
 //
-//  PAAppDelegate.h
+//  PJAppDelegate.h
 //  PlumberAppointments
 //
 //  Created by Vijay Tholpadi on 30/03/14.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PAAppDelegate : UIResponder <UIApplicationDelegate>
+@interface PJAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 

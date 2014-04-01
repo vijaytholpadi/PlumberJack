@@ -7,7 +7,7 @@
         <!--View Controller - Select a day-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="PAViewController" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="PJViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -52,7 +52,7 @@
         <!--Table View Controller - Appointments-->
         <scene sceneID="dkC-Re-cmh">
             <objects>
-                <tableViewController id="xW1-SR-YrO" customClass="PATableViewController" sceneMemberID="viewController">
+                <tableViewController id="xW1-SR-YrO" customClass="PJTableViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="I79-mc-fOd">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -86,7 +86,7 @@
         <!--Details View Controller-->
         <scene sceneID="3KZ-Z6-5JB">
             <objects>
-                <viewController id="9Ow-ql-7SA" customClass="DetailsViewController" sceneMemberID="viewController">
+                <viewController id="9Ow-ql-7SA" customClass="PJDetailsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="xfJ-R4-815"/>
                         <viewControllerLayoutGuide type="bottom" id="kkk-Ki-fvn"/>

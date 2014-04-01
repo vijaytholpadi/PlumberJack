@@ -1,19 +1,19 @@
 //
-//  PATableViewController.m
+//  PJTableViewController.m
 //  PlumberAppointments
 //
 //  Created by Vijay Tholpadi on 31/03/14.
 //  Copyright (c) 2014 TheGeekProjekt. All rights reserved.
 //
 
-#import "PATableViewController.h"
-#import "DetailsViewController.h"
+#import "PJTableViewController.h"
+#import "PJDetailsViewController.h"
 
-@interface PATableViewController ()
+@interface PJTableViewController ()
 @property (nonatomic,strong) NSDictionary *interDictionary;
 @end
 
-@implementation PATableViewController
+@implementation PJTableViewController
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -37,7 +37,8 @@
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    DetailsViewController *dvc = [segue destinationViewController];
+    // Getting a reference for the destination view controller and then passing on the Details of the selected appointment
+    PJDetailsViewController *dvc = [segue destinationViewController];
     dvc.appointDetails = self.interDictionary;
 }
 
@@ -57,7 +58,6 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     // Return the number of rows in the section.
-    
     return [self.dayAppointArray count];
 }
 
@@ -66,12 +66,10 @@
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
     
-    // Configure the cell...
-    if (self.dayAppointArray ==nil){
-        NSLog(@"This works");
-    }
+    // Setting the interDictionary with key and values of all the details for a given appointment
     self.interDictionary = [[NSDictionary alloc] initWithDictionary:[self.dayAppointArray objectAtIndex:indexPath.row]];
     
+    // Showing the time and the address object from the dictionary as it might be the most relevant info for the Plumber to see in this view
     [cell.textLabel setText:[NSString stringWithFormat:@"%@ | %@",[self.interDictionary objectForKey:@"time"],[self.interDictionary objectForKey:@"address"]]];
 
     return cell;
