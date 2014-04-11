@@ -1,7 +1,11 @@
 PlumberJack
 ===========
 
+<<<<<<< HEAD
 A demo app to display the appointments of a person which is fetched as a JSON from the web.
+=======
+PlumberJack is an appointment management application which syncs all the user's appointments to a JSON file hosted on AWS S3*. It allows the user to add and view appointments.
+>>>>>>> ec9ce60b95fda2151da9afd904bfebc3b148cc21
 
 Main functionalities:
 1) Checking appointments for a given day.
@@ -40,4 +44,10 @@ Features that can be incorporated in future.
 
 		b) Using the appointments array that we obtain in the previous step, we populate the table view and the PJdetailsViewController remains the same.
 
+<<<<<<< HEAD
 		c) We also have a select day button in this case in the editButton position of the tableView which will perform a segue to the UIPickerView that we had repositioned. Here we can manually select the day and then trigger back a segue to the table view via a UIButton passing the day name along which will be processed in the table view controller and the table view will be repopulated. The PJdetailsViewController will remain the same in this flow too.
+=======
+		c) We also have a select day button in this case in the editButton position of the tableView which will perform a segue to the UIPickerView that we had repositioned. Here we can manually select the day and then trigger back a segue to the table view via a UIButton passing the day name along which will be processed in the table view controller and the table view will be repopulated. The PJdetailsViewController will remain the same in this flow too.
+=======
+
+>>>>>>> ec9ce60b95fda2151da9afd904bfebc3b148cc21
