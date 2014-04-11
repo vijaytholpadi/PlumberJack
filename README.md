@@ -1,4 +1,4 @@
 PlumberJack
 ===========
 
-A demo app to display the appointments of a person (Plumber in this case) which is fetched as a JSON from the web.
+PlumberJack is an appointment management application which syncs all the user's appointments to a JSON file hosted on AWS S3*. It allows the user to add and view appointments.
