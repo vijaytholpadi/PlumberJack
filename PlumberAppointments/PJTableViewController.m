@@ -38,8 +38,10 @@
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     // Getting a reference for the destination view controller and then passing on the Details of the selected appointment
+    NSIndexPath *path = [self.tableView indexPathForSelectedRow];
+
     PJDetailsViewController *dvc = [segue destinationViewController];
-    dvc.appointDetails = self.interDictionary;
+    dvc.appointDetails = [[NSDictionary alloc] initWithDictionary:[self.dayAppointArray objectAtIndex:path.row]];
 }
 
 - (void)didReceiveMemoryWarning

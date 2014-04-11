@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18DAF4BF18EC0A29009EA516 /* PJAddAppointment.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DAF4BE18EC0A29009EA516 /* PJAddAppointment.m */; };
+		18DAF4C118EC1E8C009EA516 /* AWSRuntime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DAF4C018EC1E8C009EA516 /* AWSRuntime.framework */; };
+		18DAF4C318EC1E9D009EA516 /* AWSS3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DAF4C218EC1E9D009EA516 /* AWSS3.framework */; };
 		CDAAFF8A18E875E800D01882 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAAFF8918E875E800D01882 /* Foundation.framework */; };
 		CDAAFF8C18E875E800D01882 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAAFF8B18E875E800D01882 /* CoreGraphics.framework */; };
 		CDAAFF8E18E875E800D01882 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAAFF8D18E875E800D01882 /* UIKit.framework */; };
@@ -36,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18DAF4BD18EC0A29009EA516 /* PJAddAppointment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJAddAppointment.h; sourceTree = "<group>"; };
+		18DAF4BE18EC0A29009EA516 /* PJAddAppointment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJAddAppointment.m; sourceTree = "<group>"; };
+		18DAF4C018EC1E8C009EA516 /* AWSRuntime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AWSRuntime.framework; sourceTree = "<group>"; };
+		18DAF4C218EC1E9D009EA516 /* AWSS3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AWSS3.framework; sourceTree = "<group>"; };
 		CDAAFF8618E875E700D01882 /* PlumberAppointments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlumberAppointments.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDAAFF8918E875E800D01882 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CDAAFF8B18E875E800D01882 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -69,6 +76,8 @@
 				CDAAFF8C18E875E800D01882 /* CoreGraphics.framework in Frameworks */,
 				CDAAFF8E18E875E800D01882 /* UIKit.framework in Frameworks */,
 				CDAAFF8A18E875E800D01882 /* Foundation.framework in Frameworks */,
+				18DAF4C118EC1E8C009EA516 /* AWSRuntime.framework in Frameworks */,
+				18DAF4C318EC1E9D009EA516 /* AWSS3.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,6 +116,8 @@
 		CDAAFF8818E875E800D01882 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				18DAF4C218EC1E9D009EA516 /* AWSS3.framework */,
+				18DAF4C018EC1E8C009EA516 /* AWSRuntime.framework */,
 				CDAAFF8918E875E800D01882 /* Foundation.framework */,
 				CDAAFF8B18E875E800D01882 /* CoreGraphics.framework */,
 				CDAAFF8D18E875E800D01882 /* UIKit.framework */,
@@ -121,6 +132,8 @@
 				CDAAFF9818E875E800D01882 /* PJAppDelegate.h */,
 				CDAAFF9918E875E800D01882 /* PJAppDelegate.m */,
 				CDAAFF9B18E875E800D01882 /* Main.storyboard */,
+				18DAF4BD18EC0A29009EA516 /* PJAddAppointment.h */,
+				18DAF4BE18EC0A29009EA516 /* PJAddAppointment.m */,
 				CDAAFFBE18E89EEA00D01882 /* PJTableViewController.h */,
 				CDAAFFBF18E89EEA00D01882 /* PJTableViewController.m */,
 				CDAAFF9E18E875E800D01882 /* PJViewController.h */,
@@ -265,6 +278,7 @@
 				CDAAFFA018E875E800D01882 /* PJViewController.m in Sources */,
 				CDAAFFC018E89EEA00D01882 /* PJTableViewController.m in Sources */,
 				CDAAFF9A18E875E800D01882 /* PJAppDelegate.m in Sources */,
+				18DAF4BF18EC0A29009EA516 /* PJAddAppointment.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,10 +403,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Vijay Tholpadi (YB8CHEDUB8)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PlumberAppointments/PlumberAppointments-Prefix.pch";
 				INFOPLIST_FILE = "PlumberAppointments/PlumberAppointments-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2BEE015E-0995-4D89-8F77-B826A6065CFE";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -402,10 +422,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Vijay Tholpadi (YB8CHEDUB8)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PlumberAppointments/PlumberAppointments-Prefix.pch";
 				INFOPLIST_FILE = "PlumberAppointments/PlumberAppointments-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2BEE015E-0995-4D89-8F77-B826A6065CFE";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
